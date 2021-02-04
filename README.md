@@ -2,12 +2,13 @@ Terraform example for provider vsphere
 
 
 Folder Structure:
-
 ├── data_sources.tf
 ├── main.tf
 ├── provider.tf
 ├── README.md
-└── terraform.tfvars
+├── secret.tf
+├── terraform.tfvars
+└── variables.tf
 
 Set secrets via environment variables
 >export TF_VAR_username=(the username)
