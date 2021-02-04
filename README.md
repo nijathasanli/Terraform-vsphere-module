@@ -10,8 +10,8 @@ Folder Structure: <br>
 ├── terraform.tfvars <br>
 └── variables.tf <br>
 
-Set secrets via environment variables
->export TF_VAR_username=(the username)
->export TF_VAR_password=(the password)
-When you run Terraform, it'll pick up the secrets automatically
+Set secrets via environment variables <br>
+>export TF_VAR_username=(the username) <br>
+>export TF_VAR_password=(the password) <br>
+When you run Terraform, it'll pick up the secrets automatically <br>
 >terraform apply
